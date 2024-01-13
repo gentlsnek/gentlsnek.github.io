@@ -1,6 +1,6 @@
 'use strict';
 
-const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+const letters = "123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ0"
 
 document.querySelector("h1").onmouseover = event => {
 
