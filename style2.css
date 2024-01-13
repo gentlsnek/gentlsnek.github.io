@@ -1,52 +1,59 @@
 *{
-    background-color: rgb(88, 88, 88);
+    background-color: rgb(36,36, 36);
+    font-family: Arial, Helvetica, sans-serif;
 }
 div{
     font-size: large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: black;
 }
-.back{
-    color: red;
+.container{
+    height: 300px;
+    position: relative;
+    
 }
-
+.center{
+    margin: 30px;
+    position: absolute;
+    top:20%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+}
 .title{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 75;
-    color: bisque;
-}
-.button1{
-    font-style: italic;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 30;
-    background-color: rgb(41, 41, 41);
-    color: rgb(105, 105, 105);
-}
-
-.button2{
-    font-style: italic;
-    font-family:'Courier New', Courier, monospace;
-    font-size: 30;
-    background-color: rgb(41, 41, 41);
-    color:blue
-}
-.button3{
-    font-style: italic;
-    font-family:'Courier New', Courier, monospace;
-    font-size: 30;
-    background-color: rgb(41, 41, 41);
-    color:black;
-}
-button{
-    border: 0;
+    padding: 110px, 15px;
+    border-radius: 25px;
+    text-align: center;
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 90px;
+    color: rgb(36,36,36);
+    background-color: rgb(122,122,122);
+    border-width: 0;
+    text-decoration: solid;
 }
 .aboutme{
-    font-weight: 300;
+    font-weight: bold;
     font-family: monospace;
-    font-size: 30;
-    color:rgb(255, 239, 187)
+    font-size: 30px;
+    color:rgb(122,122,122);
+    text-align: center;
 }
-.links{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 25;
+.goback{
+    border-width: 0px;
+    color: rgb(122,122,122);
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: bold;
+}
+.container2{
+    height: 300px;
+    position: relative;
+    
+}
+.center2{
+    margin: 0px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }

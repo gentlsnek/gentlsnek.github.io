@@ -3,9 +3,8 @@
 const letters = "123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ0"
 
 document.querySelector("h1").onmouseover = event => {
-
+let original;
   let intervalDone = 0;
-
     const interval = setInterval(() => {
     event.target.innerText = event.target.innerText.split("")
     
@@ -23,4 +22,5 @@ document.querySelector("h1").onmouseover = event => {
      
     intervalDone++;
 }, 100);
+return event.target.dataset.value[index];
 }
