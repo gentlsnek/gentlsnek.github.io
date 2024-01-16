@@ -14,7 +14,7 @@ h1{
 
 .aboutme{
     font-family:Arial, Helvetica, sans-serif;
-    font-size: 50px;
+    font-size: 30px;
     border-radius: 12px;
     padding: 1px 12px;
     background-color: grey;
@@ -26,6 +26,7 @@ h1{
     
 }
 .note{
+    font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     color: white;
