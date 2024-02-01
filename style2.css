@@ -2,32 +2,23 @@
     background-color: rgb(36,36, 36);
     font-family: Arial, Helvetica, sans-serif;
 }
-div{
-    font-size: large;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: black;
-}
-.container{
-    height: 120px;
-    position: relative;
-    
-}
+
 .center{
-    position: absolute;
-    top:70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .title{
+    padding: 10px;
     border-radius: 25px;
     text-align: center;
     font-family: monospace;
-    font-weight: bolder;
+    font-weight: bold;
     font-size: 45px;
     color: rgb(36,36,36);
     background-color: rgb(122,122,122);
     border-width: 0;
-    text-decoration: solid;
+    text-decoration: underline;
 }
 .aboutme{
     font-weight: bold;
@@ -44,14 +35,29 @@ div{
     font-weight: bold;
 }
 .container2{
-    height: 300px;
+    height: 450px;
     position: relative;
     
 }
 .center2{
     margin: 0px;
     position: absolute;
-    top: 30%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.learning{
+
+}
+.ctitle{
+    font-size: 30px;
+    color: rgb(122,122,122);
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.mefforts{
+    font-size: 25px;
+    color: rgb(122,122,122);
+    font-weight: bolder;
 }
