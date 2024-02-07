@@ -24,3 +24,5 @@ let original;
 }, 100);
 return event.target.dataset.value[index];
 }
+
+

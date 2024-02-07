@@ -10,6 +10,7 @@ h1{
     align-self: auto;
     text-align: center;
     font-weight: bold;
+    transition: 1s;
 }
 
 .aboutme{
