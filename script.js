@@ -2,7 +2,9 @@
 
 const letters = "123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ0"
 
-document.querySelector("h1").onmouseover = event => {
+const heading = document.querySelector('h1');
+
+heading.onmouseover = event => {
 let original;
   let intervalDone = 0;
     const interval = setInterval(() => {
@@ -25,4 +27,32 @@ let original;
 return event.target.dataset.value[index];
 }
 
+heading.addEventListener('mouseleave', function(){
+   
+    const header = "DEVSNEK_";
+    //const change = setInterval(() =>{
+    
+    heading.textContent = header;
+    
+    
+    
+//}, 1000)
+});
+   /*const input = heading.textContent;
+   const spliting = [];
+    for(let i = 0; i < input.length; i++ ){
+        spliting[i] = input[i];
+        
+    }
+    for(let i =0; i < spliting.length; i++){
+        const randNum = Math.trunc((Math.random() * 26));
+        heading.textContent =+ header[i];
+    
 
+document.querySelector('.memeimage').addEventListener('mousemove', function(){
+   // console.log("mouse is over this");
+    document.querySelector('.memeimage').classList.add('hidden');
+    document.querySelector('.showtext').classList.remove('hidden');
+})
+
+*/

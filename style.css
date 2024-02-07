@@ -30,7 +30,8 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    margin: 15px;
+
 }
 .note{
     font-size: 25px;
@@ -79,9 +80,29 @@ a{
 .youtube{
   height: 75px;
   max-width: 100%;
+ 
 }
 .linkedin{
     height: 80px;
     max-width: 100%;
     border-width: 3px;
   }
+  
+  #btn:hover {
+    transform: translateY(-12px);
+  }
+
+#btn{
+    transition: transform 0.4s;
+}
+
+.showtext{
+text-align: center;
+font-size: 50px;
+}
+
+
+
+.hidden{
+    display:none;
+}
