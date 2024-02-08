@@ -1,6 +1,7 @@
-*{
+body{
 font-family: Arial, Helvetica, sans-serif;
 background-color: rgb(36, 36, 36);
+height: 1000px;
 }
 
 h1{
@@ -18,7 +19,7 @@ h1{
 }
 .container{
  
-    height: 100vmax;
+     height: 1000px;
       display: grid;
       grid-template-rows: repeat(4, 250px);     
 }
@@ -97,4 +98,26 @@ font-size: 50px;
 
 .hidden{
     display:none;
+}
+
+.circle{
+    --circle-size: 75px;
+    position: absolute;
+    height: var(--circle-size);
+    width: var(--circle-size);
+    border: 7px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    box-sizing: border-box;
+    transition: 0.01s;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+.message{
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 30px;
+    padding-top: 95px;
+    text-align: center;
 }

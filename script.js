@@ -4,6 +4,8 @@ const letters = "123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ0"
 
 const heading = document.querySelector('h1');
 
+
+
 heading.onmouseover = event => {
 let original;
   let intervalDone = 0;
@@ -32,12 +34,69 @@ heading.addEventListener('mouseleave', function(){
     const header = "DEVSNEK_";
     //const change = setInterval(() =>{
     
-    heading.textContent = header;
-    
-    
-    
+    heading.textContent = header; 
 //}, 1000)
 });
+
+
+
+let circle = document.getElementById('cursor');
+const speed = 0.14
+;
+
+document.addEventListener('mousemove', function(e){
+    console.log(` x = ${e.clientX}`);
+    console.log(` y = ${e.clientY}`)
+    let x = e.clientX;
+    let y = e.clientY;
+    circle.style.left = `${x }px`;
+    circle.style.top = `${y}px`;
+});
+
+document.querySelector('.memeimage').addEventListener('mouseover', function(){
+    
+    circle.style.height = '300px';
+    circle.style.width = '300px';
+    circle.style.backgroundColor = `grey`;
+    document.querySelector('.message').classList.remove('hidden');
+
+});
+
+document.querySelector('.memeimage').addEventListener('mouseleave', function(){
+    
+    circle.style.height = '75px';
+    circle.style.width = '75px';
+    circle.style.backgroundColor = ``;
+    document.querySelector('.message').classList.add('hidden');
+
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
    /*const input = heading.textContent;
    const spliting = [];
     for(let i = 0; i < input.length; i++ ){
