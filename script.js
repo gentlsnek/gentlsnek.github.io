@@ -45,8 +45,6 @@ const speed = 0.14
 ;
 
 document.addEventListener('mousemove', function(e){
-    console.log(` x = ${e.clientX}`);
-    console.log(` y = ${e.clientY}`)
     let x = e.clientX;
     let y = e.clientY;
     circle.style.left = `${x }px`;
