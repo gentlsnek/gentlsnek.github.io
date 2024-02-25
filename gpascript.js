@@ -239,12 +239,12 @@ function calculate(){
      
      console.log(sum);
      console.log(sum2);
-     result = sum2 / sum;
+     result = (sum2 / sum);
      console.log(result);
    }
    function display(){
     document.querySelector('.dispmarks').classList.remove('hidden');
-    document.querySelector('.dispmarks').textContent ="your gpa for this sem is " +  result;
+    document.querySelector('.dispmarks').textContent ="your gpa for this sem is " +  result.toFixed(2);
     }
 
     
