@@ -23,8 +23,7 @@ h1{
 .container{
  
      height: 100%;
-      display: grid;
-      grid-template-rows:;     
+      display: grid;  
 }
 .meme{
     justify-content: center;
@@ -37,15 +36,6 @@ h1{
     color: white;
     font-weight: bold;
     color: grey
-}
-.gpalink{
-    border-color: aliceblue;
-    border-width: 1px;
-    background-color: rgb(36, 36, 36);
-    color: rgb(122, 122, 122);
-    font-size: 30px;
-    font-family: monospace;
-    border-radius: 15px;
 }
 .outside {
     height: 30px;

@@ -4,12 +4,12 @@
 }
 
 .center{
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
 }
 .title{
-    padding: 10px;
+    padding: 0px;
     border-radius: 25px;
     text-align: center;
     font-family: monospace;
@@ -27,29 +27,41 @@
     color:rgb(122,122,122);
     text-align: center;
 }
-.goback{
-    border-width: 0px;
-    color: rgb(122,122,122);
-    text-decoration: none;
-    font-size: 25px;
-    font-weight: bold;
-}
 .container2{
     height: 450px;
     position: relative;
     
 }
 .center2{
-    margin: 0px;
+    margin: 30px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
-.learning{
-
+.projectrow{
+    display: grid;
+    justify-content: center;
+    align-content: center;
 }
+.projects{
+    
+    text-align: center;
+    color: rgb(122, 122, 122);
+    text-decoration: underline;
+}
+.gpalink{
+        padding-left: 15px;
+        padding-right: 15px;
+        border-width: 0px;
+        background-color: rgb(122, 122, 122);
+        color: rgb(36, 36, 36);
+        font-size: 30px;
+        font-family: monospace;
+        border-radius: 15px;
+        cursor: pointer;
+    }
+
 .ctitle{
     font-size: 30px;
     color: rgb(122,122,122);
@@ -60,4 +72,15 @@
     font-size: 25px;
     color: rgb(122,122,122);
     font-weight: bolder;
+}
+.goback{
+    margin-top: 90px;
+    text-decoration: none;
+    text-align: center;
+    border-width: 0px;
+    color: rgb(122,122,122);
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
 }

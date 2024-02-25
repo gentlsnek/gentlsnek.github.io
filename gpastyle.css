@@ -13,7 +13,7 @@ body{
 .home{
    font-size: 20px;
    color: rgb(112, 112, 112);
-   text-decoration: none;
+   text-decoration: underline;
 }
 .hidden{
    display: none;
