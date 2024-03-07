@@ -40,12 +40,13 @@
     transform: translate(-50%, -50%);
 }
 .projectrow{
-    display: grid;
+    gap: 10px;
+    display: flex;
     justify-content: center;
     align-content: center;
 }
 .projects{
-    
+    margin-bottom: 12px;
     text-align: center;
     color: rgb(122, 122, 122);
     text-decoration: underline;
