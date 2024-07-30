@@ -31,7 +31,7 @@ return event.target.dataset.value[index];
 
 heading.addEventListener('mouseleave', function(){
    
-    const header = "DEVSNEK_";
+    const header = " ";
     //const change = setInterval(() =>{
     
     heading.textContent = header; 
